@@ -78,8 +78,8 @@ if __name__ == "__main__":
             option_x = st.sidebar.selectbox("选择要用作x轴的数据列", options=column)
             html = 柱状对比图(df,option_x)
             if st.button("分享展示图表给其他人"):
-                text = st.text_input("已复制分享链接",'https://pythonwebstb.streamlit.app/')
-                pyperclip.copy(text)
+                text = st.text_input("分享链接",'https://pythonwebstb.streamlit.app/')
+                #pyperclip.copy(text)
             
         else:
             st.title('暂无数据表展示')
