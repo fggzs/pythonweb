@@ -2,3 +2,4 @@ streamlit
 plotly
 pyecharts
 pandas
+streamlit_echarts
