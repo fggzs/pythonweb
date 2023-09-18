@@ -3,3 +3,4 @@ plotly
 pyecharts
 pandas
 streamlit_echarts
+pyperclip
