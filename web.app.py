@@ -8,7 +8,7 @@ from pyecharts.charts import Bar
 from pyecharts.globals import ThemeType
 import subprocess
 
-st.set_page_config(page_title="主播数据分析", layout="wide")
+st.set_page_config(page_title="飞哥数据分析测试平台", layout="wide")
 file = st.sidebar.file_uploader("请上传csv表格", type=["csv"])
 
 
