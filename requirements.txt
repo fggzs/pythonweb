@@ -3,4 +3,4 @@ plotly
 pyecharts
 pandas
 streamlit_echarts
-pyperclip
+pyperclip==1.8.0
