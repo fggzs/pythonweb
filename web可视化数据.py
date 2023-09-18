@@ -63,13 +63,8 @@ if file is not None:
     
     # 显示表格
     st.dataframe(df)
-def 启动():
-    #import streamlit.web.bootstrap as bootstrap
-    #bootstrap.run('web可视化数据.py', 'streamlit run', (), {})
-    subprocess.run("streamlit run web可视化数据.py")
-    
+
 def 关闭():
     st.stop()
-def cs():
-    print('成功')
+
 #streamlit run web可视化数据.py
